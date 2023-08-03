@@ -34,7 +34,14 @@ nav a {
     position: absolute;
     
 }
-
+.coloured-dot {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top:12%;
+    right: 85px;
+    z-index: 1;
+}
 .blur-rectangle {
     width: 100%;
     height: 100%;
@@ -59,4 +66,12 @@ nav a {
     top: 55.5%;
     left: 49.5%;
     transform: translate(-50%, -50%);
+}
+.logo {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:46%;
+    left: 65px;
+    transform: translateY(-50%);
 }
