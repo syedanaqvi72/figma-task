@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    
+    position: fixed;
     top: 0;
     left: 250px;
     width: 100px;
@@ -91,7 +91,7 @@ nav a {
 .para1{
      font-size: 2rem;
      color: white;
-    position: absolute;
+    
       text-align: center;
 }
 button {
@@ -107,19 +107,20 @@ button {
 Height:60px;
 Top:466px;
 Left:810px;
-position: absolute;
 }
 .btn{
     Width:421px;
 Height:60px; 
-margin-right:0px;position: absolute;
+margin-right:0px;
 }
-#heading-container {
-    
-    margin-top: 800px; 
-    
+/*.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust the top margin as needed 
 }
 
+/* CSS for the heading 
 .heading {
     background: #C9C9C9;
     font-family: Jost, sans-serif;
@@ -127,11 +128,11 @@ margin-right:0px;position: absolute;
     font-weight: 300;
     line-height: 52px;
     letter-spacing: 0;
-    text-align: center;
-    padding: 10px 20px;
+    text-align: left;
+    padding: 10px 20px; /* Adjust the padding as needed
 }
 
-
+/* CSS for the paragraph 
 .paragraph {
     font-family: Jost, sans-serif;
     font-size: 42px;
@@ -139,10 +140,10 @@ margin-right:0px;position: absolute;
     font-weight: 500;
     line-height: 61px;
     letter-spacing: 0;
-    text-align: center;
+    text-align: left;
     color: white;
-    padding: 10px 20px; 
-}
+    padding: 10px 20px;} /* Adjust the padding as needed */
+
 
 
 
