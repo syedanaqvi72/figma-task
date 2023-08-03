@@ -5,29 +5,33 @@ body {
     align-items: center;
     margin: 0;
     background-color:rgb(26, 26, 26);
+   
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
- 
-    background-color: #050505;
-
     
+    top: 0;
+    left: 250px;
+    width: 100px;
+    height:100px;
+    display: flex;
+    background-color:rgb(26, 26, 26);
+    padding : 10px 0;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
-    color:#f2f2f2;
+    color: #f2f2f2;
     padding: 15px;
-    background-color: black;
     font-size: 2rem;
+    right: 120px;
 }
+
 .rectangle {
     width: 400px;
     height: 350px;
-    top: 46px;
+    top: 150px;
     left: 85px;
     background: radial-gradient(38.42% 38.42% at 50% 50%, #7996FC 0%, rgba(121, 150, 252, 0) 100%);
     box-shadow: 0px 0px 15px 0px #7996FC26;
@@ -75,3 +79,77 @@ nav a {
     left: 65px;
     transform: translateY(-50%);
 }
+.box {
+    width: 450px;
+    height: 350px;
+    top: 150px;
+    right: -290px;
+    background:rgb(26, 26, 26);
+   position:relative;
+    
+}
+.para1{
+     font-size: 2rem;
+     color: white;
+    position: absolute;
+      text-align: center;
+}
+button {
+    background-color: rgb(152, 152, 235);
+    color: white;
+    margin:10px;   
+     padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 10px;
+    Width:201px;
+Height:60px;
+Top:466px;
+Left:810px;
+position: absolute;
+}
+.btn{
+    Width:421px;
+Height:60px; 
+margin-right:0px;position: absolute;
+}
+#heading-container {
+    
+    margin-top: 800px; 
+    
+}
+
+.heading {
+    background: #C9C9C9;
+    font-family: Jost, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.paragraph {
+    font-family: Jost, sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+    padding: 10px 20px; 
+}
+
+
+
+
+
+
+
+
+
+
