@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    position: fixed;
+   position :fixed;
     top: 0;
     left: 250px;
     width: 100px;
@@ -113,14 +113,19 @@ Left:810px;
 Height:60px; 
 margin-right:0px;
 }
-/*.heading-container {
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}/*
+.heading-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px; /* Adjust the top margin as needed 
+    margin-top: 20px; 
 }
 
-/* CSS for the heading 
+
 .heading {
     background: #C9C9C9;
     font-family: Jost, sans-serif;
@@ -129,10 +134,9 @@ margin-right:0px;
     line-height: 52px;
     letter-spacing: 0;
     text-align: left;
-    padding: 10px 20px; /* Adjust the padding as needed
+    padding: 10px 20px;
 }
 
-/* CSS for the paragraph 
 .paragraph {
     font-family: Jost, sans-serif;
     font-size: 42px;
@@ -142,8 +146,8 @@ margin-right:0px;
     letter-spacing: 0;
     text-align: left;
     color: white;
-    padding: 10px 20px;} /* Adjust the padding as needed */
-
+    padding: 10px 20px;} 
+*/
 
 
 
