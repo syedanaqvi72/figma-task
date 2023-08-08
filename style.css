@@ -58,28 +58,27 @@ nav a {
 }
 
 .react {
-    width: 280px; 
-    height: 250px; 
+    width: 380px; 
+    height: 350px; 
     position: absolute;
-    top:90px;
+    top:20px;
 
 }
 
 .person {
-    width: 210px; 
-    height: 310px; 
+    width: 250px; 
+    height: 390px; 
     position: absolute;
     top: 55.5%;
     left: 49.5%;
     transform: translate(-50%, -50%);
 }
 .logo {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top:46%;
-    left: 0.5px;
-    transform: translateY(-50%);
+    transform: translateY(-55%);
 }
 .box {
     width: 450px;
@@ -128,38 +127,68 @@ background-color: #7996FC;
     position: relative;
     bottom:-80vh;
     left:-500px;
-}
+    width:1000%;}
 
 
 .heading {
     background:rgb(26, 26, 26);
     color:rgb(117, 115, 115);
     font-family: Jost, sans-serif;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 300;
-    line-height: 52px;
     letter-spacing: 0;
     padding: 10px 20px;
-}
+    width:100%;}
 
 .paragraph {
-    font-family: Jost, sans-serif;
-    font-size: 42px;
+    margin-left: 95px;
+    font-size: 30px;
     font-style: italic;
-    font-weight: 500;
-    line-height: 61px;
+    font-weight: 200;
+    line-height: 31px;
+    align-items: center;
     letter-spacing: 0;
-    text-align:right;
+    text-align:center;
     color: white;
-    padding: 10px 20px;} 
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    max-width: 1000%; 
+    max-height: 820px; 
 
+    
 
+} 
+    .portfolio{
+width: 1194px;
+height: 578px;
+top: 1066.0654296875px;
+left:-906px;
+position:relative;
+display:flex;
+margin-top: 10px;
+}
+.portfolio h1{
+    font-family: Jost;
+    font-size: 62px;
+font-weight: 700;
+line-height: 69px;
+color: #FFFFFF;
+margin-bottom: 100px;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px; 
 
+}
 
-
-
-
-
-
-
-
+.images img {
+    max-width: 700%;
+    margin-right: 50px;  
+}
+.images img:last-child {
+    margin-right: 20px; /* Remove the right margin from the last image */
+    margin-left: 0px; /* Add left margin to the last image */
+}
