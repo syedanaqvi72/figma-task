@@ -4,19 +4,19 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
     background-color:rgb(26, 26, 26);
    
 }
 
 nav {
-   position :fixed;
-    top: 0;
+position:fixed;
+    top:10px ;
     left: 250px;
     width: 100px;
     height:100px;
     display: flex;
     background-color:rgb(26, 26, 26);
-    padding : 10px 0;
     text-align: center;
 }
 
@@ -25,22 +25,23 @@ nav a {
     color: #f2f2f2;
     padding: 15px;
     font-size: 2rem;
-    right: 120px;
+    right: 20px;
+    text-align: center;
 }
 .container{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .rectangle {
     width: 400px;
     height: 350px;
     top: 150px;
-    left: 85px;
+    left: 0.5px;
     background: radial-gradient(38.42% 38.42% at 50% 50%, #7996FC 0%, rgba(121, 150, 252, 0) 100%);
     box-shadow: 0px 0px 15px 0px #7996FC26;
-    position: absolute;
+    position: relative;
     
 }
 .coloured-dot {
@@ -90,35 +91,36 @@ nav a {
     top: 150px;
     right: -290px;
     background:rgb(26, 26, 26);
-   position:relative;
+    position:relative;
+  
     
 }
 .para1{
      font-size: 2rem;
      color: white;
-    
       text-align: center;
 }
-button {
-    background-color: rgb(152, 152, 235);
+.button{
+    background-color: #7996FC;
     color: white;
-    margin:10px;   
+    margin:10px;  
      padding: 10px 30px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     cursor: pointer;
     margin-right: 10px;
-    Width:201px;
-Height:60px;
-Top:466px;
-Left:810px;
+    width:201px;
+height:60px;
+top:466px;
+left:810px;
 }
 .btn{
     Width:421px;
 Height:60px; 
 margin-right:0px;
+position: absolute;
 }
-
+/*
 .heading-container {
     align-items: center;
     margin-top: 20px; 
@@ -145,7 +147,7 @@ margin-right:0px;
     letter-spacing: 0;
     text-align: left;
     color: white;
-    padding: 10px 20px;} 
+    padding: 10px 20px;} */
 
 
 
