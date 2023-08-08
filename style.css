@@ -1,23 +1,18 @@
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+* {
+  margin :10px;    
     background-color:rgb(26, 26, 26);
    
 }
 
 nav {
-position:fixed;
-    top:10px ;
-    left: 250px;
-    width: 100px;
+    width: 50px;
     height:100px;
     display: flex;
     background-color:rgb(26, 26, 26);
-    text-align: center;
+
+    
+    
 }
 
 nav a {
@@ -25,31 +20,32 @@ nav a {
     color: #f2f2f2;
     padding: 15px;
     font-size: 2rem;
-    right: 20px;
-    text-align: center;
+    text-align:center ;
+    
 }
 .container{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+
 }
 
 .rectangle {
-    width: 400px;
+    width: 450px;
     height: 350px;
     top: 150px;
-    left: 0.5px;
+    left: 155px;
     background: radial-gradient(38.42% 38.42% at 50% 50%, #7996FC 0%, rgba(121, 150, 252, 0) 100%);
     box-shadow: 0px 0px 15px 0px #7996FC26;
-    position: relative;
+    position: absolute;}
     
-}
+
 .coloured-dot {
     width: 55px;
     height: 55px;
     position: absolute;
     top:12%;
-    right: 85px;
+    right: 5px;
     z-index: 1;
 }
 .blur-rectangle {
@@ -82,54 +78,62 @@ nav a {
     height: 35px;
     position: absolute;
     top:46%;
-    left: 65px;
+    left: 0.5px;
     transform: translateY(-50%);
 }
 .box {
     width: 450px;
     height: 350px;
-    top: 150px;
-    right: -290px;
+    top: 50px;
+    left: 690px;
     background:rgb(26, 26, 26);
-    position:relative;
-  
-    
+    position: relative;
+    padding: 10px;
+
+
 }
 .para1{
      font-size: 2rem;
      color: white;
       text-align: center;
 }
-.button{
+.button-container {
+    display:flex;
+ margin-top: 20px;
+}
+
+.button-container button {
     background-color: #7996FC;
     color: white;
-    margin:10px;  
-     padding: 10px 30px;
+    padding: 10px 30px;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    margin-right: 10px;
-    width:201px;
-height:60px;
-top:466px;
-left:810px;
+    width: 201px;
+    height: 60px;
+    top: 466px;
+    left: 810px;
 }
-.btn{
-    Width:421px;
-Height:60px; 
+ .btn{
+    width:455px;
+height:60px; 
 margin-right:0px;
-position: absolute;
+font-size: 1.7rem;
+background-color: #7996FC;
+    color: white;
+    border-radius: 10px;
 }
-/*
-.heading-container {
-    align-items: center;
-    margin-top: 20px; 
 
+.heading-container {
+    position: relative;
+    bottom:-80vh;
+    left:-500px;
 }
 
 
 .heading {
-    background: #C9C9C9;
+    background:rgb(26, 26, 26);
+    color:rgb(117, 115, 115);
     font-family: Jost, sans-serif;
     font-size: 36px;
     font-weight: 300;
@@ -145,9 +149,9 @@ position: absolute;
     font-weight: 500;
     line-height: 61px;
     letter-spacing: 0;
-    text-align: left;
+    text-align:right;
     color: white;
-    padding: 10px 20px;} */
+    padding: 10px 20px;} 
 
 
 
