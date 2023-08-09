@@ -212,6 +212,7 @@ nav a {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    width:auto;
 }
 .heading6{
     color: #5c5c5e;
@@ -229,12 +230,11 @@ nav a {
     border-radius: 10px;
     font-size: 0.5rem;
     cursor: pointer;
-    width: 900%;
-    height: 20px;
-}
+    width:93px;
+    ;}
 
 .btn2{
-    background-color: #7996FC;
+    background-color: #224de9;
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
