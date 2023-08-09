@@ -1,18 +1,13 @@
-
 * {
-  margin :10px;    
-    background-color:rgb(26, 26, 26);
-   
+    margin: 10px;
+    background-color: rgb(26, 26, 26);
 }
 
 nav {
     width: 50px;
-    height:100px;
+    height: 100px;
     display: flex;
-    background-color:rgb(26, 26, 26);
-
-    
-    
+    background-color: rgb(26, 26, 26);
 }
 
 nav a {
@@ -20,10 +15,10 @@ nav a {
     color: #f2f2f2;
     padding: 15px;
     font-size: 2rem;
-    text-align:center ;
-    
+    text-align: center;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -37,68 +32,71 @@ nav a {
     left: 155px;
     background: radial-gradient(38.42% 38.42% at 50% 50%, #7996FC 0%, rgba(121, 150, 252, 0) 100%);
     box-shadow: 0px 0px 15px 0px #7996FC26;
-    position: absolute;}
-    
+    position: absolute;
+}
+
 
 .coloured-dot {
     width: 55px;
     height: 55px;
     position: absolute;
-    top:12%;
+    top: 12%;
     right: 5px;
     z-index: 1;
 }
+
 .blur-rectangle {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     position: relative;
 }
 
 .react {
-    width: 380px; 
-    height: 350px; 
+    width: 380px;
+    height: 350px;
     position: absolute;
-    top:20px;
-
+    top: 20px;
 }
 
 .person {
-    width: 250px; 
-    height: 390px; 
+    width: 250px;
+    height: 390px;
     position: absolute;
     top: 55.5%;
     left: 49.5%;
     transform: translate(-50%, -50%);
 }
+
 .logo {
     width: 40px;
     height: 40px;
     position: absolute;
-    top:46%;
+    top: 46%;
     transform: translateY(-55%);
 }
+
 .box {
     width: 450px;
     height: 350px;
     top: 50px;
     left: 690px;
-    background:rgb(26, 26, 26);
+    background: rgb(26, 26, 26);
     position: relative;
     padding: 10px;
-
-
 }
-.para1{
-     font-size: 2rem;
-     color: white;
-      text-align: center;
+
+.para1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
 }
+
 .button-container {
-    display:flex;
- margin-top: 20px;
+    display: flex;
+    margin-top: 20px;
 }
 
 .button-container button {
@@ -113,82 +111,135 @@ nav a {
     top: 466px;
     left: 810px;
 }
- .btn{
-    width:455px;
-height:60px; 
-margin-right:0px;
-font-size: 1.7rem;
-background-color: #7996FC;
+
+.btn {
+    width: 455px;
+    height: 60px;
+    margin-right: 0px;
+    font-size: 1.7rem;
+    background-color: #7996FC;
     color: white;
     border-radius: 10px;
 }
 
 .heading-container {
     position: relative;
-    bottom:-80vh;
-    left:-500px;
-    width:1000%;}
+    bottom: -80vh;
+    left: -300px;
+    width: 1000%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 .heading {
-    background:rgb(26, 26, 26);
-    color:rgb(117, 115, 115);
+    background: rgb(26, 26, 26);
+    color: rgb(117, 115, 115);
     font-family: Jost, sans-serif;
     font-size: 46px;
     font-weight: 300;
     letter-spacing: 0;
     padding: 10px 20px;
-    width:100%;}
+    width: 100%;
+}
 
 .paragraph {
-    margin-left: 95px;
+   
     font-size: 30px;
     font-style: italic;
     font-weight: 200;
-    line-height: 31px;
-    align-items: center;
+    line-height:1.2;
+        align-items: center;
     letter-spacing: 0;
-    text-align:center;
-    color: white;
-    margin-bottom: 20px;
     text-align: center;
     color: white;
-    max-width: 1000%; 
-    max-height: 820px; 
-
+   margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 190px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
     
-
-} 
-    .portfolio{
-width: 1194px;
-height: 578px;
-top: 1066.0654296875px;
-left:-906px;
-position:relative;
-display:flex;
-margin-top: 10px;
+    -webkit-line-clamp: 15; 
+    text-overflow: ellipsis;
+    margin:0 auto;
+     
 }
-.portfolio h1{
+
+.portfolio {
+    width: 194px;
+    height: 578px;
+    top: 966.06554296875px;
+    left: -1229px;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.portfolio h1 {
     font-family: Jost;
     font-size: 62px;
-font-weight: 700;
-line-height: 69px;
-color: #FFFFFF;
-margin-bottom: 100px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #FFFFFF;
 }
+
 .images {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 900px;
+    height: auto;
+}
+.caption {
+    margin-top: 5px;
+    color:#FFFFFF;
+    font-size: 1.5rem;
+}.portfolio-heading{
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 50px; 
+}
+.heading6{
+    color: #5c5c5e;
+    font-size: 1rem;
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    width:100%;     }
 
+.portfolio-container button {
+    background-color: #67676b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    cursor: pointer;
+    width: 900%;
+    height: 20px;
 }
 
-.images img {
-    max-width: 700%;
-    margin-right: 50px;  
-}
-.images img:last-child {
-    margin-right: 20px; /* Remove the right margin from the last image */
-    margin-left: 0px; /* Add left margin to the last image */
+.btn2{
+    background-color: #7996FC;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    cursor: pointer;
+    width: 80px;
+    height: 20px;
 }
