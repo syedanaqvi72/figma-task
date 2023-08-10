@@ -1,6 +1,7 @@
 * {
     margin: 10px;
     background-color: rgb(26, 26, 26);
+
 }
 
 nav {
@@ -76,6 +77,7 @@ nav a {
     position: absolute;
     top: 46%;
     transform: translateY(-55%);
+    left: 20px;
 }
 
 .box {
@@ -127,7 +129,7 @@ nav a {
     bottom: -80vh;
     left: -300px;
     width: 1000%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -145,35 +147,35 @@ nav a {
 }
 
 .paragraph {
-   
+
     font-size: 30px;
     font-style: italic;
     font-weight: 200;
-    line-height:1.2;
-        align-items: center;
+    line-height: 1.2;
+    align-items: center;
     letter-spacing: 0;
     text-align: center;
     color: white;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     text-align: center;
     overflow: hidden;
     max-width: 100%;
     max-height: 190px;
     margin-top: 10px;
     display: -webkit-box;
-    -webkit-box-orient:vertical;
-    
-    -webkit-line-clamp: 15; 
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 15;
     text-overflow: ellipsis;
-    margin:0 auto;
-     
+    margin: 0 auto;
+
 }
 
 .portfolio {
     width: 194px;
     height: 578px;
     top: 966.06554296875px;
-    left: -1229px;
+    left: -729px;
     position: relative;
     display: flex;
     margin-top: 10px;
@@ -186,6 +188,7 @@ nav a {
     font-weight: 700;
     line-height: 69px;
     color: #FFFFFF;
+    background: rgb(26, 26, 26)
 }
 
 .images {
@@ -196,50 +199,167 @@ nav a {
 
 .image-container {
     text-align: center;
-    margin-top:100px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 2px;
 }
 
 .image-container img {
     max-width: 900px;
     height: auto;
 }
+
 .caption {
     margin-top: 5px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 1.5rem;
-}.portfolio-heading{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width:auto;
 }
-.heading6{
+
+.portfolio-heading {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+
+}
+
+.heading6 {
     color: #5c5c5e;
     font-size: 1rem;
+    height: 5px;
+    margin-right:80px;
+    padding: 5px 10px;
+    width:80px;
+    margin-left: 80px;
 }
+
 .portfolio-container {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    width:100%;     }
+}
 
 .portfolio-container button {
     background-color: #67676b;
     color: white;
-    padding: 10px 30px;
+    padding: 5px 10px;
     border-radius: 10px;
-    font-size: 0.5rem;
+    font-size: 1rem;
     cursor: pointer;
-    width:93px;
-    ;}
+    width: 150px;
+    height: 50px;
+    margin-right: 60px;
 
-.btn2{
+}
+
+.portfolio-container behance {
     background-color: #224de9;
+}
+
+.reference-section {
+  
+    margin-top: 20px;
+    top: 1636.06554296875px;
+    position: relative;
+    right: 929px;
+}
+h2{
+    color:#FFFFFF;
+    font-size: 52px;
+  left:-900px;   
+}
+.reference-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.reference-box1 {
+    border: 1px solid ;
+    padding: 20px;
+    text-align: left;
+    height: 180px;
+    border-radius: 10px;
+
+    background: #414141;
+}
+
+.reference-box2 {
+    border: 1px solid;
+    padding: 20px;
+    text-align: left;
+    height: 180px;
+    border-radius: 10px;
+    background: #414141;
+
+}
+
+.reference-box3 {
+    border: 1px solid ;
+    padding: 20px;
+    text-align: center;
+    height: 180px;
+    border-radius: 10px;
+ width:300px;
+ background: #414141;
+
+}
+
+.ref{
+    background: #414141;
+    font-size: 1.24rem;
+
+}
+
+h3 {
+    margin-top: 20px;
+    color: #FFFFFF;
+    background: #414141;
+
+}
+
+.reference-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+    background: #414141;
+}
+
+.btn2 {
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    width: 80px;
-    height: 20px;
+    width: 250px;
+    background-color: #67676b;
+    height:auto;
+    text-align: left;
+  
+}
+
+.btn3 {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #224de9;
+    width:50px;
+    align-items: left;
+}
+.btn3 i.fa {
+    font-size: 20px;
+    background-color: #224de9; 
+    height:30px;
+    width:9px;
+    
+    
+}
+.reference-box3 i.fa {
+    font-size: 54px;
+align-items: center;
+margin-bottom: 35px;
 }
